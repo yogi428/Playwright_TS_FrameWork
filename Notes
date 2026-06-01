@@ -1,0 +1,17 @@
+CSS
+tag, id , class and attribute
+page.locator("tag")
+page.locator("#id")
+page.locator(".class")
+page.locator("[attribute='value']")
+
+----
+XPathEvaluator//tag
+XPathEvaluator//*[@id="id"]
+XPathEvaluator//*[@class="class"]
+XPathEvaluator//*[@attribute="value"]   
+
+By Text()
+//tagname[text()='text' ]
+or
+//tagname[contains(text(),'text')] 
